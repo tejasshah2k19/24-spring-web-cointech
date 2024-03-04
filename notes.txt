@@ -1,0 +1,37 @@
+form must have name attribute , that helps to give name to your data in form and 
+then only it will pass from client to server [ form -> controller ] 
+
+action attribute of form is used to submit the request on server 
+
+method="post" when you want to pass data with basic encryption and not from the url 
+method="get" data will pass via url 
+
+
+
+
+when we have method as post -> then we need to create bean class to read user's input 
+
+
+lombok 
+	1) add jar file / dep / lib 
+	
+	1 time process -> download lombok from official site and execute that exe 
+
+	
+protected views
+	1) create views folder inside WEB-INF 
+				WEB-INF is inside webapp 
+					webapp is inside main folder 
+	
+	2) application.properties 
+			i have views ->WEB-INF/views 
+			
+			
+	3) you have to create method inside controller to open the jsp 
+		 create url 
+		 
+-------------------------------------------------------------------------------------
+
+
+		 	
+					
